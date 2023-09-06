@@ -9,9 +9,9 @@
 
 nav{
     height: 100vh;
-    width: 260px;
+    width: 2600px;
     width: 50vw;
-    background: #006464;
+    background: #1f223f;
     position: fixed;
     top: 0;
     left: 0;
@@ -56,7 +56,7 @@ li{
 }
 
 li:hover{
-    background: #23b872;
+    background: #3e3852;
 }
 
 .icon-li{
@@ -112,4 +112,16 @@ li.sub-menu a:hover{
     left: 200px;
     position: relative;
     width: calc(100%-200px)
+}
+
+.form-floating label{
+    left: 10px;
+}
+
+#btn-salvar{
+    background:  #3b3f5e;
+    border: none;
+    height: 48px;
+    width: 128px;
+    border-radius: 8px;
 }
